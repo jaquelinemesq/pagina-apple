@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #444445;
+    height: 48px;
+    padding-top: 10px;
+}
+
+header a {
+    color: #A6B1B7;
+    text-decoration: none;
+}
+  
+header a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+nav ul li {
+    display: inline-block;
+    margin: 0 32px;
+}
+  
+nav a {
+    color: #A6B1B7;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+main a {
+    color: #0066CC;
+    text-decoration: none;
+} 
+
+.sessao-produtos {
+    width: 800px;
+    padding: 32px;
+    margin: 32px auto;
+    text-align: center;
+}
+  
+.sessao-produtos h2 {
+    font-size: 72px;
+    margin: 60px 0 8px 0;
+}
+  
+.sessao-produtos p {
+    font-size: 30px;
+    margin: 5px 0 5px 0;
+}
+  
+.sessao-produtos a {
+    font-size: 24px;
+    margin: 0 15px;
+}
+
+.smartphone img {
+    width: 800px;
+    
+}
+  
+.smart-watch {
+    background-color: #010101;
+    color: #FFFFFF;
+}
+  
+.smart-watch img {
+    width: 628px;
+    
+}
+  
+footer {
+    background-color: #f5f5f7;
+    color: #6e6e73;
+    height: 890px;
+    text-align: center;
+
+}
+
+footer a {
+    display: flex;
+    color: #424245;
+    margin: 0 36px 0 36px;
+    justify-content: center;
+}
+
+.footer-list {
+    display: inline-flex;
+    margin: 36px 0 36px 0;
+}
